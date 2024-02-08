@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141519;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#rating {
+    color: white;
+    background-image: linear-gradient(to bottom, #242B35, #171E28);
+    height: 400px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+#rating.ativo {
+    display: none;
+}
+
+#rating #star {
+    background-color: #272E38;
+    margin: 30px 30px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#rating #star img {
+   margin-top: 7px;
+   margin-left: 1px;
+}
+
+#rating h1 {
+    margin-left: 30px;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+#rating p {
+    font-size: 0.9em;
+    color: #808791;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    line-height: 1.4em;
+}
+
+#rating #select {
+    margin-left: 30px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+#rating #select label input {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#rating #select label span {
+    background-color: #272E38;
+    color: #808791;
+    cursor: pointer;
+    margin-right: 30px;
+    border-radius: 50%;
+    padding: 10px 15px 10px 15px;
+}
+
+#rating #select label span:hover {
+    background-color: #FC7613;
+    color: white;
+}
+
+#rating #select label input:checked + span {
+    background-color: #808791;
+    color: white;
+}
+
+#rating button {
+    margin-left: 30px;
+    background-color: #FC7613;
+    color: white;
+    border: none;
+    padding: 13px;
+    width: 340px;
+    border-radius: 30px;
+    font-size: 0.9em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#rating button:hover {
+    background-color: white;
+    color: #FC7613;
+}
+
+#thankyou {
+    color: white;
+    background-image: linear-gradient(to bottom, #242B35, #171E28);
+    height: 400px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    display: none;
+}
+
+#thankyou.ativo {
+    display: block;
+}
+
+#thankyou img {
+    margin: 50px 0px 25px 0px;
+}
+
+#thankyou #result {
+    width: 190px;
+    padding: 6px 3px;
+    color: #fc741393;
+    background-color: #272E38;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#thankyou h1 {
+    margin-left: 30px;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+#thankyou p {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #808791;
+    margin-left: 30px;
+    margin-right: 25px;
+    line-height: 1.5em;
+}
+
+.attribution {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+.attribution a {
+    color: #FC7613;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: white;
+}

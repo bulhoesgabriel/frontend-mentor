@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Interactive Rating Component</title>
+
+</head>
+<body>
+
+  <div id="rating">
+    <div id="star"><img src="images/icon-star.svg" alt="Star"></div>
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <ul id="select">
+      <li><label for="opt1"><input type="radio" name="option" id="opt1"><span>1</span></label></li>
+      <li><label for="opt2"><input type="radio" name="option" id="opt2"><span>2</span></label></li>
+      <li><label for="opt3"><input type="radio" name="option" id="opt3" checked><span>3</span></label></li>
+      <li><label for="opt4"><input type="radio" name="option" id="opt4"><span>4</span></label></li>
+      <li><label for="opt5"><input type="radio" name="option" id="opt5"><span>5</span></label></li>
+    </ul>
+    <button onclick="changePage()">Submit</button>
+  </div>
+
+  <div id="thankyou">
+    <img src="images/illustration-thank-you.svg" alt="Thank you">
+    <div id="result"></div>
+    <h1>Thank you!</h1>
+    <p>
+      We appreciate you taking the time to give a rating.
+      <br>
+      If you ever need more support, don’t hesitate to get in touch!
+    </p>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/bulhoesgabriel" target="_blank">Gabriel Bulhões Emerenciano</a>.
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
