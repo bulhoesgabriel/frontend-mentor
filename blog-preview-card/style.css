@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "FVF";
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: "FSB";
+    src: url('assets/fonts/static/Figtree-SemiBold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5D04E;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background-color: white;
+    height: 440px;
+    max-width: 300px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px black;
+}
+
+.card img {
+    max-width: 270px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.card .info {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .info .top {
+    background-color: #F5D04E;
+    border-radius: 5px;
+    font-size: 0.7em;
+    width: 60px;
+    padding: 6px;
+    font-family: 'FSB';
+}
+
+.card .info .date {
+    font-size: 0.7em;
+    margin-top: 20px;
+    font-family: 'FVF';
+}
+
+.card .info .title {
+    font-size: 1.1em;
+    margin-top: 20px;
+    font-family: 'FSB';
+}
+
+.card .info .text {
+    font-size: 0.8em;
+    margin-top: 15px;
+    font-family: 'FVF';
+    color: gray;
+    line-height: 1.4em;
+}
+
+.card .autor {
+    display: flex;
+    flex-direction: row;
+    width: 110px;
+    margin: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.card .autor img {
+    max-width: 25px;
+}
+
+.card .autor p {
+    margin-top: 20px;
+    font-size: 0.7em;
+    margin-left: 5px;
+    font-family: 'FSB';
+}
+
+.attribution {
+    font-family: 'FSB';
+    font-size: 11px;
+    text-align: center;
+    padding: 5px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: gray;
+}
+
+.attribution a:hover {
+    color: white;
+}
