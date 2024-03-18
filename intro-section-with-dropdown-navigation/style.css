@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+header nav {
+    margin-left: 60px;
+    margin-top: -10px;
+    display: flex;
+    gap: 50px;
+    font-size: 0.9em;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+header nav a:hover {
+    color: black;
+}
+
+#user {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    gap: 50px;
+    align-items: center;
+}
+
+#register, #register2 {
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+}
+
+#register:hover, #register2:hover {
+    border: 1px solid black;
+}
+
+header #menu {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    margin-top: 30px;
+    display: none;
+}
+
+header #menu:hover {
+    cursor: pointer;
+}
+
+.container, .list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    position: absolute;
+    display: none;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 15px rgba(128, 128, 128, 0.15);
+    padding: 10px;
+ }
+
+.list a {
+    padding: 10px;
+}
+
+.list a img {
+    padding-right: 10px;
+}
+
+.list.ativo {
+    display: flex;
+}
+
+#features-list {
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 35px;
+    margin-left: -60px;
+}
+
+#features-list2 {
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 35px;
+}
+
+#company-list, #company-list2 {
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 35px;
+}
+
+#menu-container a {
+    text-decoration: none;
+    color: gray;
+}
+
+#menu-container a:hover {
+    color: black;
+}
+
+main {
+    display: flex;
+    max-width: 950px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+main section {
+    width: 500px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main section h1 {
+    margin-top: 100px;
+    font-size: 4.2em;
+    line-height: 1em;
+}
+
+main section #alt {
+    display: none;
+}
+
+main section p {
+    width: 370px;
+    color: gray;
+    line-height: 1.4em;
+}
+
+main section button {
+    all: unset;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+main section button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+main section #clients {
+    display: flex;
+}
+
+main section #clients img {
+    width: 80px;
+    height: 25px;
+    margin-right: 25px;
+}
+
+main #hero {
+    width: 420px;
+}
+
+main #hero-mobile {
+    display: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: black;
+}
+
+.attribution a {
+    color: gray;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: black;
+}

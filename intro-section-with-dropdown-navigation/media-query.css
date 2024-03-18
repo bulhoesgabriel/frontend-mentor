@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 992px) {
+
+    header nav {
+        display: none;
+    }
+
+    header #menu {
+        display: block;
+    }
+
+    #menu-nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        margin: auto;
+        margin-top: 35px;
+        margin-left: 50px;
+        background-color: white;
+        width: 60%;
+        height: 85%;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.15);
+        border-radius: 5px;
+    }
+
+    #menu-nav a {
+       padding: 10px;
+    }
+
+    #menu-nav.ativo {
+        display: flex;
+    }
+
+    #user2 {
+        text-align: center;
+        justify-content: center;
+        margin-top: 315px;
+    }
+
+    #register2 {
+        margin: auto;
+        width: 60%;
+        margin-top: 5px;
+    }
+
+    .list {
+        background-color: white;
+        box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.15);
+    }
+
+    #features-list2 {
+        z-index: 1;
+    }
+
+    #features-list2, #company-list2 {
+        margin-top: 40px;
+    }
+
+    #features-container, #company-container {
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #careers {
+        margin-bottom: 20px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section {
+        width: 400px;
+        order: 2;
+        margin: auto;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    main section h1 {
+        display: none;
+    }
+
+    main section #alt {
+        width: 380px;
+        font-size: 2.5em;
+        margin: auto;
+        display: block;
+    }
+
+    main section p {
+        width: 330px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    main section button {
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    main section #clients {
+        margin: auto;
+        width: 380px;
+    }
+
+    main section #clients img {
+        margin: auto;
+    }
+
+    main #hero {
+        display: none;
+    }
+
+    main #hero-mobile {
+        display: block;
+        order: 1;
+        width: 400px;
+    }
+
+    .attribution {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    #menu-container {
+        display: none;
+    }
+
+}
