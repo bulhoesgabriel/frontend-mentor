@@ -1,0 +1,14 @@
+footer {
+    margin: auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #69676b;
+}
+
+footer a {
+    color: #EE5E51;
+}
+
+footer a:hover {
+    color: #000;
+}

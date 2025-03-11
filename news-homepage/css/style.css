@@ -1,0 +1,39 @@
+@import 'nav.css';
+@import 'main.css';
+@import 'section.css';
+@import 'footer.css';
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/static/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'InterBold';
+    src: url('../assets/fonts/static/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'InterExtraBold';
+    src: url('../assets/fonts/static/Inter-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'InterVariable';
+    src: url('../assets/fonts/static/Inter-Variable.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    padding: 80px;
+}

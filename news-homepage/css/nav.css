@@ -1,0 +1,30 @@
+header {
+    margin-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu-button {
+    display: none;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#menu-list {
+    display: flex;
+    gap: 55px;
+}
+
+#menu-list a {
+    font-family: 'Inter', sans-serif;
+    color: #69676b;
+}
+
+#menu-list a:hover {
+    color: #D48386;
+}

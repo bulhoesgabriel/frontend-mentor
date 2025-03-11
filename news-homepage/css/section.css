@@ -1,0 +1,39 @@
+section {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 140px;
+}
+
+.section-containers {
+    height: 140px;
+    display: flex;
+    gap: 20px;
+}
+
+.section-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.section-info h3 {
+    font-family: 'InterBold', sans-serif;
+    color: #EE5E51;
+    font-size: 1.8em;
+}
+
+.section-info a {
+    font-family: 'InterBold', sans-serif;
+    color: #000;
+}
+
+.section-info a:hover {
+    color: #EE5E51;
+}
+
+.section-info p {
+    font-family: 'Inter', sans-serif;
+    color: #69676b;
+    line-height: 1.6em;
+}
