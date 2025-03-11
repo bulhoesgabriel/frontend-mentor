@@ -14,3 +14,5 @@
 <a href="https://bulhoesgabriel.github.io/frontend-mentor/intro-section-with-dropdown-navigation/">"Intro section with dropdown navigation"</a>
 <br>
 <a href="https://bulhoesgabriel.github.io/frontend-mentor/nft-preview-card-component/">"NFT preview card component"</a>
+<br>
+<a href="https://bulhoesgabriel.github.io/frontend-mentor/news-homepage/">"News homepage"</a>
