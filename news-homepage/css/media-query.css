@@ -57,6 +57,9 @@
     main, .main-info {
         flex-direction: column;
     }
+    picture img {
+        max-height: 350px;
+    }
     .main-container, aside {
         width: 100%;
     }
