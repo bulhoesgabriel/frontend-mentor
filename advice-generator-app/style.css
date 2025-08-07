@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    border-radius: 10px;
+    padding: 2rem;
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: hsl(150, 100%, 66%);
+    font-weight: 600;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+.advice {
+    color: hsl(193, 38%, 86%);
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+picture {
+    padding-bottom: 10px;
+}
+
+.next-advice {
+    all: unset;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+}
+
+.next-advice:hover {
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
+
+.next-advice img {
+    width: 20px;
+}
+
+footer {
+    color: hsl(193, 38%, 86%);
+    position: fixed;
+    bottom: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+footer a {
+    color: hsl(150, 100%, 66%);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
