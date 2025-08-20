@@ -18,3 +18,4 @@
 <a href="https://bulhoesgabriel.github.io/frontend-mentor/news-homepage/">"News homepage"</a>
 <br>
 <a href="https://bulhoesgabriel.github.io/frontend-mentor/advice-generator-app/">"Advice generator app"</a>
+
